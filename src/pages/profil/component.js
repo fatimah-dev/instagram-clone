@@ -5,9 +5,10 @@ import Grid from "@material-ui/core/Grid";
 import AppBar from "../../component/app-bar";
 import Image from "../../asset/avatar.png";
 import Plus from "../../asset/plus.png";
+import UseStyle from "./style";
 
 function Profil(props) {
-  const { classes } = props;
+  const classes = UseStyle();
   return (
     <React.Fragment>
       <CssBaseline />

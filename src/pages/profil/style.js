@@ -1,7 +1,9 @@
-const style = {
+import { makeStyles } from "@material-ui/core/styles";
+
+const style = makeStyles(theme => ({
   container: {
-    width: "100%",
     height: "100vh",
+    width: "100%",
     padding: 0
   },
   gridOne: {
@@ -30,6 +32,6 @@ const style = {
     paddingTop: "1em",
     paddingLeft: "1.4em"
   }
-};
+}));
 
 export default style;
