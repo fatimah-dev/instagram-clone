@@ -4,33 +4,59 @@ const style = makeStyles(theme => ({
   container: {
     height: "100vh",
     width: "100%",
-    padding: 0
+    padding: 0,
+    backgroundColor: "#FFFFFF"
   },
-  gridOne: {
-    paddingTop: "6em"
+  appbar: {
+    backgroundColor: "#FAFAFA",
+    boxShadow: "0px 4px 5px rgba(0, 0, 0, 0.04)",
+    padding: 15
   },
-  profil: {
+  grid: {
     display: "flex",
-    flexDirection: "row",
-    justifyContent: "center"
-  },
-  plus: {
-    display: "flex",
-    alignItems: "flex-end",
-    marginLeft: "-1.2em"
+    flexDirection: "row"
   },
   text: {
     display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
+    flexDirection: "row",
     alignItems: "center"
   },
-  number: {
-    fontWeight: "bold"
+  arrow: {
+    display: "flex",
+    justifyContent: "flex-start",
+    backgroundColor: "red"
+  },
+  listMore: {
+    display: "flex",
+    justifyContent: "flex-end"
+  },
+  gridTwo: {
+    padding: "25px 0px 0px 15px",
+    display: "flex",
+    alignItems: "center"
   },
   name: {
-    paddingTop: "1em",
-    paddingLeft: "1.4em"
+    display: "flex",
+    alignItems: "center",
+    flexDirection: "column",
+    marginLeft: 40
+  },
+  nameTwo: {
+    display: "flex",
+    alignItems: "center",
+    flexDirection: "column",
+    marginLeft: 3
+  },
+  nameThree: {
+    display: "flex",
+    alignItems: "center",
+    flexDirection: "column",
+    marginLeft: 4
+  },
+  more: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center"
   }
 }));
 
